@@ -16,13 +16,13 @@ require_once("DAO.php");
         <h2>Créer un contrat</h2>
         <form action="index.php" method="post">
             <label for="nom">Nom du contrat</label>
-            <input type="text" name="nom" id="nom">
+            <input type="text" name="nom" id="nom" required>
             <label for="nom_mecene">Nom du mécène</label>
-            <input type="text" name="nom_mecene" id="nom_mecene">
+            <input type="text" name="nom_mecene" id="nom_mecene" required>
             <label for="date_debut">Date de début</label>
-            <input type="date" name="date_debut" id="date_debut">
+            <input type="date" name="date_debut" id="date_debut" required>
             <label for="date_fin">Date de fin</label>
-            <input type="date" name="date_fin" id="date_fin">
+            <input type="date" name="date_fin" id="date_fin" required>
             <input type="submit" value="Créer" id="submitBtn">
         </form>
     
